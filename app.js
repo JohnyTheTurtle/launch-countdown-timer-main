@@ -1,4 +1,4 @@
-const target_date = new Date("2022-11-10T20:00:00")
+const target_date = new Date("2023-01-25T20:00:00")
 
 
 const calc_remaining_time = function(target_date){
