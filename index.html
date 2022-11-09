@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="./index.css" rel="stylesheet">
+  <script src="./app.js" defer></script>
+  <title>Frontend Mentor | Launch countdown timer</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="cloud" id="cloud1">
+      <div class="cloud-small"></div>
+      <div class="cloud-medium"></div>
+      <div class="cloud-large"></div>
+    </div>
+    <div class="cloud" id="cloud2">
+      <div class="cloud-small"></div>
+      <div class="cloud-medium"></div>
+      <div class="cloud-large"></div>
+    </div>
+    <div class="cloud" id="cloud3">
+      <div class="cloud-small"></div>
+      <div class="cloud-medium"></div>
+      <div class="cloud-large"></div>
+    </div>
+    <div class="cloud" id="cloud4">
+      <div class="cloud-small"></div>
+      <div class="cloud-medium"></div>
+      <div class="cloud-large"></div>
+    </div>
+    <div class="shooting-star">
+      <div class="star-head"></div>
+      <div class="star-tail"></div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <div class="stars"><img src="./images/bg-stars.svg" alt=""></div>
+    <h1>We're launching soon</h1>
+    <div class="countdown">
+      <div class="clock">
+        <div class="old-value">
+          <div class="countdown-value top old-value-top"  id="day-old-top">00</div>
+          <div class="countdown-value bottom" id="day-old-bottom">00</div> 
+        </div>
+        <div class="new-value" id="day-new">
+          <div class="countdown-value top" id="day-new-top">00</div>
+          <div class="countdown-value bottom new-value-bottom" id="day-new-bottom">00</div>
+        </div>
+        <div class="countdown-label">Days</div>
+      </div>
+      <div class="clock">
+        <div class="old-value">
+          <div class="countdown-value top old-value-top" id="hrs-old-top">00</div>
+          <div class="countdown-value bottom" id="hrs-old-bottom">00</div> 
+        </div>
+        <div class="new-value">
+          <div class="countdown-value top" id="hrs-new-top">00</div>
+          <div class="countdown-value bottom new-value-bottom" id="hrs-new-bottom">00</div>
+        </div>
+        <div class="countdown-label">Hours</div>
+      </div>
+      <div class="clock">
+        <div class="old-value">
+          <div class="countdown-value top old-value-top" id="min-old-top">00</div>
+          <div class="countdown-value bottom" id="min-old-bottom">00</div> 
+        </div>
+        <div class="new-value">
+          <div class="countdown-value top" id="min-new-top">00</div>
+          <div class="countdown-value bottom new-value-bottom" id="min-new-bottom">00</div>
+        </div>
+        <div class="countdown-label">Minutes</div>
+      </div>
+      <div class="clock">
+        <div class="old-value">
+          <div class="countdown-value top old-value-top" id="sec-old-top">00</div>
+          <div class="countdown-value bottom" id="sec-old-bottom">00</div> 
+        </div>
+        <div class="new-value">
+          <div class="countdown-value top" id="sec-new-top">002</div>
+          <div class="countdown-value bottom new-value-bottom" id="sec-new-bottom">00</div>
+        </div>
+        <div class="countdown-label">Seconds</div>
+      </div>
+    </div>
+    <footer>
+      <a href="#"><img src="./images/icon-facebook.svg" alt=""></a>
+      <a href="#"><img src="./images/icon-pinterest.svg" alt=""></a>
+      <a href="#"><img src="./images/icon-instagram.svg" alt=""></a>
+      <img class="footer-bg" src="./images/pattern-hills.svg" alt="">
+    </footer>
+  </div>
+  
+
+  
+  
+  
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
