@@ -16,6 +16,7 @@
 body{
     background: linear-gradient(var(--Very-dark-mostly-black-blue), var(--Dark-desaturated-blue));
     max-height: 100vh;
+    max-width: 100vw;
     overflow: hidden;
 }
 .cloud{
